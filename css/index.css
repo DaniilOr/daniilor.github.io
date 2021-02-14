@@ -64,9 +64,9 @@ p {
   max-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
-    box-sizing: border-box;
+  box-sizing: border-box;
   padding-top: 99px;
-  
+
   padding-right: 87px;
   padding-left: 89px;
 }
@@ -138,29 +138,27 @@ p {
 .phone:hover {
   color: #ffffff;
   text-decoration: underline;
-    cursor: pointer;
-
-  
+  cursor: pointer;
 }
 .request-btn {
   display: flex;
-justify-content: center;
-align-content: center;
-text-align: center;
-background: #e3b873;
-border-radius: 2px;
-outline: 0;
-border: 0;
-text-transform: uppercase;
-padding: 15px 25px;
-color: #ffffff;
-font-family: inherit;
-font-style: italic;
-font-size: 11px;
-line-height: 15px;
-min-width: 180px;
-min-height: 40px;
-box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background: #e3b873;
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  color: #ffffff;
+  font-family: inherit;
+  font-style: italic;
+  font-size: 11px;
+  line-height: 15px;
+  min-width: 180px;
+  min-height: 40px;
+  box-sizing: border-box;
 }
 .intro {
   height: 710px;
@@ -247,7 +245,6 @@ box-sizing: border-box;
   margin: 0, auto;
   height: 550px;
   padding: 0;
-
 }
 .completed-projects-list {
   margin-top: 180px;
@@ -415,7 +412,7 @@ box-sizing: border-box;
 }
 .play {
   position: absolute;
-  left: 45%;
+  left: calc(50% - 75px);
 }
 .promotion {
   display: flex;
@@ -624,8 +621,7 @@ input[type="checkbox"]:checked + label:before {
   flex-direction: column;
   justify-content: space-between;
   margin-right: 80px;
-    box-sizing: border-box;
-
+  box-sizing: border-box;
 }
 
 .measurement-info-item {
@@ -1077,7 +1073,7 @@ input::placeholder {
     margin-top: 32px;
     justify-content: center;
   }
-  .section{
+  .section {
     padding-left: 0;
     padding-right: 0;
   }
@@ -1346,9 +1342,8 @@ input::placeholder {
     height: 365px;
     margin-bottom: 180px;
     margin-top: 50px;
-    
   }
-  .repair-types-item img{
+  .repair-types-item img {
     max-width: 100%;
   }
   .repair-example {
@@ -1365,11 +1360,9 @@ input::placeholder {
     padding-bottom: 35px;
     left: 0%;
   }
-.repair-list li {
-  padding: 0;
-  
- 
-}
+  .repair-list li {
+    padding: 0;
+  }
   .price-btn {
     display: flex;
     flex-direction: row;
@@ -1417,7 +1410,7 @@ input::placeholder {
   .mobile-next-btn {
     margin-right: 20px;
   }
-  .textual{
+  .textual {
     margin-right: 0;
   }
   .fantasy-title {
