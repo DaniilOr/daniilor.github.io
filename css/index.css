@@ -579,7 +579,7 @@ input[type="checkbox"]:checked + label:before {
   font-size: 13px;
   line-height: 27px;
   color: #959595;
-  padding: 10px 0;
+  padding: 8px 0;
   list-style: disc;
 }
 .price-btn {
@@ -1328,8 +1328,11 @@ input::placeholder {
     height: 365px;
     margin-bottom: 180px;
     margin-top: 50px;
+    
   }
-
+  .repair-types-item img{
+    max-width: 100%;
+  }
   .repair-example {
     position: absolute;
     top: 223px;
@@ -1344,7 +1347,10 @@ input::placeholder {
     padding-bottom: 35px;
     left: 0%;
   }
-
+.repair-list li {
+  padding: auto;
+ 
+}
   .price-btn {
     display: flex;
     flex-direction: row;
