@@ -1081,7 +1081,7 @@ input::placeholder {
   margin-top: 44px;
 }
 
-@media all and (width < 1300px) {
+@media (max-width: 1300px) {
   .btn {
     height: 50px;
     margin-right: 18px;
