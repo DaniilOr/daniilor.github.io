@@ -1249,7 +1249,9 @@ input::placeholder {
     width: 40px;
     height: 40px;
   }
-
+  .play{
+    left: calc(50% - 20px);
+  }
   .control-promotion {
     font-size: 11px;
     line-height: 19px;
