@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
 @font-face {
   src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap");
   font-family: "Nunito Sans";
@@ -61,6 +64,11 @@ p {
   max-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
+    box-sizing: border-box;
+  padding-top: 99px;
+  
+  padding-right: 87px;
+  padding-left: 89px;
 }
 .header,
 .footer {
@@ -72,7 +80,7 @@ p {
   margin: 0;
 }
 .header-contents {
-  padding: 0px 80px;
+  padding: 0px 92px 0px 87px;
   min-height: 80px;
   display: flex;
   flex-direction: row;
@@ -125,11 +133,34 @@ p {
   display: inline-block;
   color: #e3b873;
   font-family: inherit;
+  text-decoration: underline;
+}
+.phone:hover {
+  color: #ffffff;
+  text-decoration: underline;
+    cursor: pointer;
+
+  
 }
 .request-btn {
-  display: inline-block;
-  min-width: 180px;
-  min-height: 40px;
+  display: flex;
+justify-content: center;
+align-content: center;
+text-align: center;
+background: #e3b873;
+border-radius: 2px;
+outline: 0;
+border: 0;
+text-transform: uppercase;
+padding: 15px 25px;
+color: #ffffff;
+font-family: inherit;
+font-style: italic;
+font-size: 11px;
+line-height: 15px;
+min-width: 180px;
+min-height: 40px;
+box-sizing: border-box;
 }
 .intro {
   height: 710px;
@@ -151,8 +182,10 @@ p {
 .intro-contents {
   position: relative;
   z-index: 2;
-  padding-top: 150px;
-  padding-left: 90px;
+  padding-top: 154px;
+  padding-left: 89px;
+  padding-right: 87px;
+  padding-bottom: 199px;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -213,6 +246,7 @@ p {
   max-width: 1440px;
   margin: 0, auto;
   height: 550px;
+
 }
 .completed-projects-list {
   margin-top: 180px;
