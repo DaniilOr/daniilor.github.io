@@ -43,6 +43,21 @@ h3 {
 p {
   font-family: Nunito Sans;
 }
+label{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 163.68%;
+}
+input{
+  font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 23px;
+}
+
 .btn {
   background: #e3b873;
   border-radius: 2px;
@@ -762,7 +777,7 @@ input::placeholder {
 }
 
 .fantasy-images {
-  margin: -110px 0 -40px;
+  margin: -90px 0 -40px;
   flex: 0 0 60%;
   display: grid;
   gap: 40px;
@@ -1066,7 +1081,7 @@ input::placeholder {
   margin-top: 44px;
 }
 
-@media (max-width: 1300px) {
+@media all and (width < 1300px) {
   .btn {
     height: 50px;
     margin-right: 18px;
@@ -1249,9 +1264,7 @@ input::placeholder {
     width: 40px;
     height: 40px;
   }
-  .play{
-    left: calc(50% - 20px);
-  }
+
   .control-promotion {
     font-size: 11px;
     line-height: 19px;
