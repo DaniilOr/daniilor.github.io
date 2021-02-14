@@ -526,7 +526,6 @@ input[type="checkbox"]:checked + label:before {
 
 .repair-contents h3 {
   text-align: center;
-  margin-top: 70px;
 }
 
 .repair-types {
