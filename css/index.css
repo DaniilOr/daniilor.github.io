@@ -427,7 +427,7 @@ line-height: 23px;
 }
 .play {
   position: absolute;
-  left: calc(50% - 75px);
+  left: auto;
 }
 .promotion {
   display: flex;
