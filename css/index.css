@@ -725,12 +725,15 @@ input::placeholder {
   margin: 0, auto;
   display: flex;
   flex-direction: row;
+  padding: 0;
   justify-content: center;
 }
 
 .textual {
   display: flex;
   flex-direction: column;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 .fantasy-title {
   margin-bottom: 50px;
@@ -801,6 +804,7 @@ input::placeholder {
 .our-clients-contents {
   max-width: 1440px;
   margin: 0, auto;
+  padding: 0;
 }
 
 .our-clients-title {
@@ -1068,7 +1072,10 @@ input::placeholder {
     margin-top: 32px;
     justify-content: center;
   }
-
+  .section{
+    padding-left: 0;
+    padding-right: 0;
+  }
   .nav,
   .request-btn {
     display: none;
@@ -1315,10 +1322,13 @@ input::placeholder {
 
   .repair-contents {
     flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
   }
   .repair-types {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 0;
   }
 
   .repair-types-item {
@@ -1348,7 +1358,8 @@ input::placeholder {
     left: 0%;
   }
 .repair-list li {
-  padding: auto;
+  padding: 0;
+  
  
 }
   .price-btn {
@@ -1370,9 +1381,10 @@ input::placeholder {
     background: none;
   }
   .fantasy-contents {
-    margin-top: -100px;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
   .fantasy-slider-mobile {
     width: 100%;
