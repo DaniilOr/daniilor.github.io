@@ -246,6 +246,7 @@ box-sizing: border-box;
   max-width: 1440px;
   margin: 0, auto;
   height: 550px;
+  padding: 0;
 
 }
 .completed-projects-list {
@@ -463,6 +464,7 @@ box-sizing: border-box;
   flex-direction: column;
   align-items: flex-start;
   margin-right: 50px;
+  padding: 8px 0;
 }
 
 .personal-details label {
@@ -617,13 +619,14 @@ input[type="checkbox"]:checked + label:before {
 }
 
 .measurement-info {
-  padding-top: 70px;
   padding-bottom: 85px;
   height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-right: 80px;
+    box-sizing: border-box;
+
 }
 
 .measurement-info-item {
@@ -634,6 +637,7 @@ input[type="checkbox"]:checked + label:before {
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
+  padding-top: 100px;
   color: #363636;
 }
 
@@ -652,6 +656,7 @@ input[type="checkbox"]:checked + label:before {
   color: #fff;
   font-family: Yeseva One;
   font-size: 18px;
+  margin-top: 50px;
 }
 
 .measurement-form-block {
@@ -672,6 +677,7 @@ input[type="checkbox"]:checked + label:before {
   margin-top: 60px;
   padding: 30px 50px;
   position: relative;
+  box-sizing: border-box;
 }
 .measurement-form input,
 input::placeholder {
@@ -725,7 +731,7 @@ input::placeholder {
   margin: 0, auto;
   display: flex;
   flex-direction: row;
-  padding: 0;
+  padding: 0 87px 0 89px;
   justify-content: center;
 }
 
@@ -737,7 +743,7 @@ input::placeholder {
 }
 .fantasy-title {
   margin-bottom: 50px;
-  margin-top: 50px;
+  padding-top: 50px;
   max-width: 350px;
   font-family: Yeseva One;
   font-weight: normal;
@@ -1325,6 +1331,9 @@ input::placeholder {
     padding-left: 0;
     padding-right: 0;
   }
+  .repair-contents h3 {
+    margin-top: 0;
+  }
   .repair-types {
     flex-direction: column;
     align-items: center;
@@ -1385,6 +1394,7 @@ input::placeholder {
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
+    margin-top: -50px;
   }
   .fantasy-slider-mobile {
     width: 100%;
@@ -1408,10 +1418,14 @@ input::placeholder {
   .mobile-next-btn {
     margin-right: 20px;
   }
+  .textual{
+    margin-right: 0;
+  }
   .fantasy-title {
     margin: 0 auto 25px;
     max-width: 300px;
     font-size: 22px;
+    padding-top: 0;
     line-height: 30px;
     text-align: center;
   }
