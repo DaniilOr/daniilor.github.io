@@ -1087,6 +1087,7 @@ input::placeholder {
     margin-right: 18px;
     margin-top: 32px;
     justify-content: center;
+    align-items: center;
   }
   .section {
     padding-left: 0;
