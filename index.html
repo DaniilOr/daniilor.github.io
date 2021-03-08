@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" defer="true" src="js/index.js"></script>
     <title>Repair Design Project</title>
 </head>
 <body>
+
 <header class="header">
   <div class="section header-contents">
     <span class="company-name">ic repair design project</span>
@@ -50,40 +52,40 @@
         <div class="projects-list">
           <div class="project">
             <h3 class="colored-text">City:</h3>
-            <span class="project-text">Rostov-on-Don<br>LCD admiral</span>
+            <span id="city" class="project-text">Rostov-on-Don<br>LCD admiral</span>
           </div>
           <div class="project">
             <h3 class="colored-text">Apartment area:</h3>
-            <span class="project-text">81 m2</span>
+            <span id="area" class="project-text">81 m2</span>
           </div>
           <div class="project">
             <h3 class="colored-text">Repair time:</h3>
-            <span class="project-text">3.5 months</span>
+            <span id="time" class="project-text">3.5 months</span>
           </div>
           <div class="project">
             <h3 class="colored-text">Repair cost:</h3>
-            <span class="project-text">Upon request</span>
+            <span id="cost" class="project-text">Upon request</span>
           </div>
         </div>
         <div class="projects-list-arrows">
-          <button class="projects-list-arrow">
+          <button id="left" class="projects-list-arrow">
             <img src="img/icons/arrow-left.svg" alt="arrow-left" />
           </button>
           <ul>
-            <li class="point"></li>
-            <li class="point"></li>
-            <li class="point"></li>
+            <li id = "first" class="point"></li>
+            <li id = "second" class="point"></li>
+            <li id = "third" class="point"></li>
           </ul>
-          <button class="projects-list-arrow"><img src="img/icons/arrow-right.svg" alt="arrow-right" /></button>
+          <button id="right" class="projects-list-arrow"><img src="img/icons/arrow-right.svg" alt="arrow-right" /></button>
         </div>
       </div>
       <div class="slider">
         <div class="slider-nav">
-          <a class="slider-link" href="#">rostov-on-don, admiral</a>
-          <a class="slider-link" href="#">sochi thieves</a>
-          <a class="slider-link" href="#">rostov-on-don patriotic</a>
+          <a class="slider-link" onclick="slider.points[0].onclick();">rostov-on-don, admiral</a>
+          <a class="slider-link" onclick="slider.points[1].onclick();">sochi thieves</a>
+          <a class="slider-link" onclick="slider.points[2].onclick();">rostov-on-don patriotic</a>
         </div>
-        <img src="img/projects1.jpg" alt="Example of our projects">
+        <img id="slide" src="img/projects1.jpg" alt="Example of our projects">
       </div>
     </div>
   </section>
