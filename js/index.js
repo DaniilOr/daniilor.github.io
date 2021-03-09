@@ -32,7 +32,7 @@ class Slider{
 	      this.time = document.getElementById("time");
 	      this.points = [document.getElementById("first"), document.getElementById("second"), document.getElementById("third")];
 	      this.points[0].classList.toggle("active");
-	      this.slide = document.getElementById("slide");
+	      this.slide = document.querySelectorAll("#slide");;
 	      this.points[0].onclick = ()=>{
 	      	for(let point of this.points){
 	      	      point.classList.remove("active");
@@ -78,7 +78,9 @@ class Slider{
       	this.time.textContent = this.data[this.idx].time;
       	this.area.textContent = this.data[this.idx].area;
       	this.city.textContent = this.data[this.idx].city;
-      	this.slide.setAttribute("src", this.data[this.idx].img);
+      	for (let slide of this.slide){
+      		slide.setAttribute("src", this.data[this.idx].img);
+      	}
       }
      
 }
